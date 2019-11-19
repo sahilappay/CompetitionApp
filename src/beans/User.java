@@ -5,12 +5,16 @@
  */
 package beans;
 
+import config.Initialization;
+
+import java.io.Serializable;
+
 /**
  *
  * @author Admin
  */
 
-public class User {
+public class User implements Serializable {
     private String username;
     private String password;
     private int point;
@@ -45,5 +49,6 @@ public class User {
 
     public void setPoint(int point) {
         this.point = point;
+        Initialization.refreshConfic();
     }
 }

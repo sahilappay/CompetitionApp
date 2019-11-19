@@ -3,6 +3,7 @@ package util;
 import beans.Participant;
 import beans.User;
 import config.Config;
+import config.Initialization;
 
 import java.util.Scanner;
 
@@ -33,13 +34,13 @@ public class CompetitionUtil {
             participants[i] = participant;
         }
         System.out.println("Butun ishtirakchilar ugurla daxil edildi!");
-        Config.setParticipants(participants);
+        Initialization.config.setParticipants(participants);
         return participants;
     }
 
     public static void increaseParticipants(){
         Scanner sc = new Scanner(System.in);
-        Participant[] participantsOld = Config.getParticipants();
+        Participant[] participantsOld = Initialization.config.getParticipants();
         if (participantsOld == null){
             System.out.println(" Oops!\n" +
                     "Ishtirakchilari daxil etmeden sayini artirmaq mumkun deyil.\n" +
@@ -57,7 +58,7 @@ public class CompetitionUtil {
             participantsNew[i] = registerParticipant();
         }
         System.out.println("Butun ishtirakchilar ugurla elave edildi!");
-        Config.setParticipants(participantsNew);
+        Initialization.config.setParticipants(participantsNew);
     }
 
     public static void printParticipants(Participant[] participants){
@@ -71,7 +72,7 @@ public class CompetitionUtil {
     }
 
     public static void printParticipants(){
-        printParticipants(Config.getParticipants());
+        printParticipants(Initialization.config.getParticipants());
     }
 
     public static void startCompetition(){
@@ -82,18 +83,18 @@ public class CompetitionUtil {
 
         if(selectedNumber == systemNumber){
             increasePoint();
-            System.out.println("Tebrikler! :) Siz qalib geldiniz! Sizin xaliniz: "+Config.getUser().getPoint());
+            System.out.println("Tebrikler! :) Siz qalib geldiniz! Sizin xaliniz: "+Initialization.config.getUser().getPoint());
         }else{
-            System.out.println("Teessuf! :( Siz uduzdunuz! Sizin xaliniz: "+Config.getUser().getPoint());
+            System.out.println("Teessuf! :( Siz uduzdunuz! Sizin xaliniz: "+Initialization.config.getUser().getPoint());
         }
     }
 
     public static void increasePoint(){
-        User user = Config.getUser();
+        User user = Initialization.config.getUser();
         user.setPoint(user.getPoint()+10);
     }
 
     public static void printPoint(){
-        System.out.println("Sizin xaliniz: "+Config.getUser().getPoint());
+        System.out.println("Sizin xaliniz: "+Initialization.config.getUser().getPoint());
     }
 }

@@ -8,29 +8,42 @@ package config;
 import beans.Participant;
 import beans.User;
 
+
+import java.io.Serializable;
+
 /**
  *
  * @author Admin
  */
-public class Config {
-    private static User user = null;
+public class Config implements Serializable {
 
-    private static Participant[] participants = null;
+    private  User user = null;
 
-    public static User getUser() {
+    private  Participant[] participants = null;
+
+    public Config() {
+    }
+
+    public Config(User user) {
+        this.user = user;
+    }
+
+    public  User getUser() {
         return user;
     }
 
-    public static void setUser(User user) {
-        Config.user = user;
+    public  void setUser(User user) {
+        this.user = user;
+        Initialization.refreshConfic();
     }
 
-    public static Participant[] getParticipants() {
+    public  Participant[] getParticipants() {
         return participants;
     }
 
-    public static void setParticipants(Participant[] participants) {
-        Config.participants = participants;
+    public  void setParticipants(Participant[] participants) {
+        this.participants = participants;
+        Initialization.refreshConfic();
     }
 
 

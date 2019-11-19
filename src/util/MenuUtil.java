@@ -15,7 +15,8 @@ public class MenuUtil {
                     + "3.Ishtirakchilara bax.\n"
                     + "4.Yarishmaya bashla.\n"
                     + "5.Xalima bax.\n"
-                    + "6.Sistemden chix.\n");
+                    + "6.Sistemden chix.\n"
+                    + "7.Proqramdan chix.");
             int selectedMenu = sc.nextInt();
             if(selectedMenu == 1){
                 Participant[] participants = CompetitionUtil.registerParticipants();
@@ -30,6 +31,9 @@ public class MenuUtil {
                 CompetitionUtil.printPoint();
             }else if (selectedMenu == 6){
                 UserUtil.requireInputsAndLogin(3,true);
+            }else if (selectedMenu == 7){
+                System.out.println("Proqramdan chixildi!");
+                System.exit(0);
             }else{
                 System.out.println("Yalnish sechim!");
                 continue;

@@ -1,6 +1,8 @@
 package beans;
 
-public class Participant {
+import java.io.Serializable;
+
+public class Participant implements Serializable {
     private String name;
     private String surname;
     private int age;
