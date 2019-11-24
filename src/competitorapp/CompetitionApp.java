@@ -5,7 +5,6 @@
  */
 package competitorapp;
 
-import config.Config;
 import config.Initialization;
 import util.MenuUtil;
 import util.UserUtil;
@@ -21,13 +20,10 @@ public class CompetitionApp {
      * @param args the command line arguments
      */
 
-    public static Config config = null;
     public static void main(String[] args) {
 
         User user = UserUtil.requireInputsAndLogin(3,true);
-
         Initialization.initializeConfig(user);
-
         System.out.println("Salam, "+user.getUsername()+"!");
         MenuUtil.showMenu();
     

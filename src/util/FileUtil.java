@@ -22,13 +22,11 @@ public class FileUtil {
         }
     }
 
-    public static Object readObjectFromFile(String name) {
+    public static Object readObjectFromFile(String name) throws Exception{
         Object obj = null;
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(name))) {
             obj = in.readObject();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
+        }finally {
             return obj;
         }
     }

@@ -9,13 +9,18 @@ public class Initialization {
         config = new Config(user);
         try {
             Object configObj = FileUtil.readObjectFromFile("config.ser");
-            config = (Config) configObj;
+                if (configObj == null){
+                    config.setUser(user);
+                }else {
+                    config = (Config) configObj;
+                }
         }catch (Exception ex){
             //ignore
+            ex.printStackTrace();
         }
     }
 
-    public static void refreshConfic(){
+    public static void refreshConfig(){
         FileUtil.writeObjectToFile(config, "config.ser");
     }
 }

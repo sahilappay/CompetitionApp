@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b2d21e1-7070-419a-bdd9-333de3b5f82e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/Initialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
+    <list default="true" id="4a0c94cf-8469-4610-91ee-8cca5d315c79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/beans/Participant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/beans/Participant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/META-INF/CompetitionApp.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/beans/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/beans/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/competitorapp/CompetitionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/competitorapp/CompetitionApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/config/Initialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/config/Initialization.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/MenuUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/MenuUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/UserUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/FileUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/competitorapp/CompetitionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competitorapp/CompetitionApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Initialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Initialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/CompetitionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CompetitionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/MenuUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MenuUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/UserUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Tp4KiyJZouAPJa0Kibqj9gCQ29" />
+  <component name="ProjectId" id="1U3UaANqGnMlRHasYnbPkTESGIB" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ders_18_19/src/ders_18" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,12 +79,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b2d21e1-7070-419a-bdd9-333de3b5f82e" name="Default Changelist" comment="" />
-      <created>1574143640497</created>
+      <changelist id="4a0c94cf-8469-4610-91ee-8cca5d315c79" name="Default Changelist" comment="" />
+      <created>1574584832743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574143640497</updated>
-      <workItem from="1574143641951" duration="7769000" />
+      <updated>1574584832743</updated>
+      <workItem from="1574584834586" duration="9361000" />
     </task>
     <servers />
   </component>

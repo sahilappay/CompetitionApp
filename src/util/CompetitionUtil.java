@@ -2,7 +2,6 @@ package util;
 
 import beans.Participant;
 import beans.User;
-import config.Config;
 import config.Initialization;
 
 import java.util.Scanner;
@@ -49,7 +48,8 @@ public class CompetitionUtil {
         }
         System.out.println("Neche nefer ishtirakchi elave etmek isteyirsiniz?");
         int increaseCount = sc.nextInt();
-        Participant[] participantsNew = new Participant[increaseCount];
+
+        Participant[] participantsNew = new Participant[participantsOld.length+increaseCount];
 
         for (int i = 0; i<participantsOld.length;i++){
             participantsNew[i] = participantsOld[i];
@@ -84,8 +84,10 @@ public class CompetitionUtil {
         if(selectedNumber == systemNumber){
             increasePoint();
             System.out.println("Tebrikler! :) Siz qalib geldiniz! Sizin xaliniz: "+Initialization.config.getUser().getPoint());
+            System.out.println("Sistem terefinden sechilmish reqem: "+systemNumber);
         }else{
             System.out.println("Teessuf! :( Siz uduzdunuz! Sizin xaliniz: "+Initialization.config.getUser().getPoint());
+            System.out.println("Sistem terefinden sechilmish reqem: "+systemNumber);
         }
     }
 

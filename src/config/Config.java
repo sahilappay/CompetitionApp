@@ -7,6 +7,7 @@ package config;
 
 import beans.Participant;
 import beans.User;
+import util.FileUtil;
 
 
 import java.io.Serializable;
@@ -34,7 +35,7 @@ public class Config implements Serializable {
 
     public  void setUser(User user) {
         this.user = user;
-        Initialization.refreshConfic();
+        Initialization.refreshConfig();
     }
 
     public  Participant[] getParticipants() {
@@ -43,7 +44,7 @@ public class Config implements Serializable {
 
     public  void setParticipants(Participant[] participants) {
         this.participants = participants;
-        Initialization.refreshConfic();
+        Initialization.refreshConfig();
     }
 
 

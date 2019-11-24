@@ -33,7 +33,6 @@ public class UserUtil {
         String password = sc.nextLine();
 
         User user = login(username, password);
-        Initialization.config.setUser(user);
 
         return user;
     }
