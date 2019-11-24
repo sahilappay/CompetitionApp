@@ -63,6 +63,7 @@ public class CompetitionUtil {
 
     public static void printParticipants(Participant[] participants){
         if(participants == null || participants.length == 0){
+            System.out.printf("Hech bir ishtirakchi daxil edilmeyib! Zehmet olmasa ishtirakchilari daxil edin.\n");
             return;
         }
         for (int i = 0; i<participants.length; i++){

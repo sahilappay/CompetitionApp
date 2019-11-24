@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0c94cf-8469-4610-91ee-8cca5d315c79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/META-INF/CompetitionApp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/beans/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/beans/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/competitorapp/CompetitionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/competitorapp/CompetitionApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/config/Initialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/config/Initialization.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/FileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/competitorapp/CompetitionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competitorapp/CompetitionApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Initialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Initialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/CompetitionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CompetitionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/UserUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +22,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1U3UaANqGnMlRHasYnbPkTESGIB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574584832743</updated>
-      <workItem from="1574584834586" duration="9361000" />
+      <workItem from="1574584834586" duration="10585000" />
     </task>
     <servers />
   </component>
@@ -101,5 +94,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
