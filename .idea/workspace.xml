@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a0c94cf-8469-4610-91ee-8cca5d315c79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitionApp/util/CompetitionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/CompetitionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/CompetitionUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a0c94cf-8469-4610-91ee-8cca5d315c79" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574584832743</updated>
-      <workItem from="1574584834586" duration="10585000" />
+      <workItem from="1574584834586" duration="10666000" />
     </task>
     <servers />
   </component>
